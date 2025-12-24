@@ -28,7 +28,7 @@ jobs:
           https://ai-rem-demo-api.remediation.opsmx.net/webhooks/github/actions)
           echo "API_RESPONSE=$API_RESPONSE" >> $GITHUB_OUTPUT
 
-      # Step 3: Parse API response and set outputs
+      # Step 3: Parse API response and set outputs   
       - name: Check API Response
         id: check_response
         env:
